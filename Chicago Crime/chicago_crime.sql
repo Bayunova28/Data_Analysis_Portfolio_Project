@@ -49,7 +49,7 @@ GROUP BY primary_type, description, location_description
 HAVING SUM(beat) >= 1000
 ORDER BY primary_type ASC
 
--- Looking community area based on primary type, description, location description and community area
+-- Looking community area description based on primary type, description, location description and community area
 SELECT primary_type, description, location_description, community_area,
 CASE 
 	WHEN community_area > 50 THEN 'Very Large'
