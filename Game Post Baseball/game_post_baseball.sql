@@ -50,3 +50,29 @@ FROM practice..game_post_baseball
 GROUP BY awayTeamName, homeTeamName, startingBalls, startingStrikes, startingOuts
 ORDER BY awayTeamName, homeTeamName 
 
+-- Looking total venue capacity which has more than equals to 100000 based on home team name, outcome description and status
+SELECT homeTeamName, outcomeDescription, status, SUM(venueCapacity) AS totalVenueCapacity
+FROM practice..game_post_baseball
+GROUP BY homeTeamName, outcomeDescription, status
+HAVING SUM(venueCapacity) >= 100000
+ORDER BY homeTeamName ASC
+
+-- Looking venue capacity description based on home team name, outcome description and venue capacity
+SELECT homeTeamName, outcomeDescription, status, venueCapacity,
+CASE 
+	WHEN venueCapacity > 50000 THEN 'Very Large'
+	WHEN venueCapacity = 50000 THEN 'Large'
+	ELSE 'Very Small'
+END AS venueCapacityDescription
+FROM practice..game_post_baseball
+ORDER BY homeTeamName ASC
+
+-- Looking hitter height and hitter weight based on hitter first name, hitter last name, outcome description on ball, strike loading and foul ball
+SELECT hitterFirstName, hitterLastName, outcomeDescription, hitterHeight, hitterWeight
+FROM practice..game_post_baseball
+WHERE outcomeDescription IN ('Ball', 'Strike Looking', 'Foul Ball')
+ORDER BY hitterFirstName, hitterLastName ASC
+
+
+
+
