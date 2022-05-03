@@ -1,4 +1,4 @@
-# Data Analyst Portfolio Project
+# Data Analysis Portfolio Project
 <img src="https://github.com/Bayunova28/Data_Analyst_Portfolio_Project/blob/main/cover.jpg" width="1000" height="450">
 
 ## Case Study
