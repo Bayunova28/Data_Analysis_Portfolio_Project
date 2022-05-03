@@ -1,5 +1,5 @@
 # Data Analysis Portfolio Project
-<img src="https://github.com/Bayunova28/Data_Analyst_Portfolio_Project/blob/main/cover.jpg" width="1000" height="450">
+<img src="https://github.com/Bayunova28/Data_Analyst_Portfolio_Project/blob/main/cover.jpg" width="1000" height="400">
 
 ## Case Study
 > My portfolio project about data analysis 
