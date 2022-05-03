@@ -74,7 +74,7 @@ ORDER BY country ASC
 SELECT market_segment, hotel, country, distribution_channel, SUM((stays_in_week_nights + stays_in_weekend_nights) * adr) AS total_revenue,
 CASE 
 	WHEN SUM((stays_in_week_nights + stays_in_weekend_nights) * adr) > 50000 THEN 'Very Expensive'
-	WHEN SUM((stays_in_week_nights + stays_in_weekend_nights) * adr) > 50000 THEN 'Intermediate'
+	WHEN SUM((stays_in_week_nights + stays_in_weekend_nights) * adr) = 50000 THEN 'Intermediate'
 	ELSE 'Cheaper'
 END AS revenue_description
 FROM practice..hotel_revenue
