@@ -150,5 +150,3 @@ WHERE
   ) 
 ORDER BY 
   nppes_provider_last_org_name ASC
-
-
