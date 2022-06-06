@@ -66,6 +66,3 @@ order by Calories desc
 select * from practice..menu
 where Protein >= '20' and Calories <= '800'
 order by Protein desc
-
-
-
