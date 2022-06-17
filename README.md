@@ -1,14 +1,35 @@
 # Data Analysis Portfolio Project
-<img src="https://github.com/Bayunova28/Data_Analyst_Portfolio_Project/blob/main/cover.jpg" width="1000" height="450">
+## Requirement
 
-## Case Study
-> My portfolio project about data analysis 
-- Chicago Crime [[📂](https://github.com/Bayunova28/Data_Analyst_Portfolio_Project/tree/main/Chicago%20Crime)] [[📄](https://app.powerbi.com/groups/me/reports/74d9ced4-64bf-489c-a3d2-7ded0f9cf3bf/ReportSection?bookmarkGuid=9a9c1bf1-f39b-4c4c-bfce-e44c630d373f&bookmarkUsage=1&ctid=05fe4127-faae-45ea-80b2-d8117aecbb2f&fromEntryPoint=export)]
-- Game Post Baseball [[📂](https://github.com/Bayunova28/Data_Analyst_Portfolio_Project/tree/main/Game%20Post%20Baseball)] [[📄](https://datastudio.google.com/u/0/reporting/cd72bf8d-3279-4f15-b2c8-1cb8149c6fce/page/t3MrC)]
-- Center Medicare Service [[📂](https://github.com/Bayunova28/Data_Analyst_Portfolio_Project/tree/main/Center%20Medicare%20Service)] [[📄](https://datastudio.google.com/u/0/reporting/c6f39b60-13c2-47d0-9d2c-c0f40865e52b/page/18TrC)]
-- Hotel Revenue [[📂](https://github.com/Bayunova28/Data_Analyst_Portfolio_Project/tree/main/Hotel%20Revenue)] [[📄](https://datastudio.google.com/reporting/a8ed9d58-fb9a-4016-a42d-3b56ae8ff00b)]
-- Park Golf Sales Detail [[📂](https://github.com/Bayunova28/Data_Analyst_Portfolio_Project/tree/main/Park%20Golf%20Sales%20Detail)] [[📄](https://datastudio.google.com/reporting/8a102064-95d2-4fea-b0a1-4144b1b31e4c)]
-- USDA Multifamily Housing Program [[📂](https://github.com/Bayunova28/Data_Analysis_Portfolio_Project/tree/main/USDA%20Multifamily%20Housing%20Program)] [[📄](https://datastudio.google.com/reporting/47492d1b-3b8e-4059-b012-2e1ec4d9eae6)]
-- Video Games Sales [[📂](https://github.com/Bayunova28/Data_Analysis_Portfolio_Project/tree/main/Video%20Games%20Sales)] [[📄](https://datastudio.google.com/reporting/31d47cc9-d9be-45e6-9366-a68e6614f56f)]
-- Nutrition Facts for McDonald's Menu [[📂](https://github.com/Bayunova28/Data_Analysis_Portfolio_Project/tree/main/Nutrition%20Facts%20for%20McDonald's%20Menu)] [[📄](https://datastudio.google.com/reporting/43a92768-9652-4024-8f00-869b454de9ca)]
-- New York AirBNB [[📂](https://github.com/Bayunova28/Data_Analysis_Portfolio_Project/tree/main/New%20York%20AirBNB)] [[📄](https://datastudio.google.com/reporting/2a70299e-02e0-4050-b285-b7fedde08166)]
+### Install and Configure SQL Server on Windows
+<img src="https://github.com/Bayunova28/Data_Analysis_Portfolio_Project/blob/main/sql-server-logo.png" width="900" height="300">
+
+* Download the setup file from the [SQL Server downloads](https://www.microsoft.com/en-us/sql-server/sql-server-downloads) page. Scroll down until you find the Developer edition and click the Download now button.
+* Click the middle tile to select the <b>Custom</b> installation type.
+* Choose where to store the downloaded installation media files and click <b>Install</b> to continue.
+* Select the <b>Installation</b> category on the left-hand side of the SQL Server Installation Center window and click the <b>New SQL Server</b> link to start the installation wizard.
+* The wizard automatically checks for available updates. If there are no updates ready to install, click <b>Next</b> to proceed.
+* The install wizard checks for any errors that might cause problems during the setup process. If it detects any failures, fix them before clicking <b>Next</b> to continue.
+* Choose an installation type. If you are installing SQL Server for the first time, select the <b>Perform a new installation of SQL Server 2019</b> option and click <b>Next</b> to continue.
+* Choose the version of SQL Server you want to install and enter a product key if you have one, then click <b>Next</b> to proceed. For this example, we are installing the free Developer version.
+* Check the <b>I accept the license terms and Privacy Statement</b> box and click <b>Next</b> to continue.
+* Select the features you want to install. For this example, we are using the <b>Database Engine Services</b> option. Click <b>Next</b> to proceed.
+* Enter a name and instance ID for the new SQL server and click <b>Next</b> to continue.
+* Set up the service accounts and collation configuration, then click <b>Next</b> to continue. For this example, we are using the default settings.
+* In the Server Configuration tab, select the <b>Mixed Mode</b> method of authentication. Select a user for the role of SQL server administrator and set up a password for their account. Click <b>Next</b> to proceed.
+* The final step offers a summary of the installation. Click <b>Back</b> to return to any of the previous steps and change the installation settings or click <b>Install</b> to start the setup process.
+* Once the setup is complete, the status of setup operations should read Succeeded. Click <b>Close</b> to exit the install wizard.
+
+### Install Microsoft SQL Server Management Studio
+* Download the install file from the [SQL Server Management Studio download](https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver15) page. Scroll down and click the link to download SSMS 18.9.1. Open the install file to start the setup.
+* Choose an install location and click <b>Install</b> to continue.
+* Once the installation process is complete, click <b>Close</b> to exit the setup.
+
+### Install Microsoft Power BI desktop
+<img src="https://github.com/Bayunova28/Data_Analysis_Portfolio_Project/blob/main/power-bi-logo.jpg" width="900" height="300">
+
+* Visit [Microsoft Power BI](https://www.microsoft.com/en-us/download/details.aspx?id=45331) page.
+* Click <b>download free</b>.
+* Once the download has finished, double-click `PBIDesktop.msi` to open the installation wizard and follow the steps.
+* Open <b>Power BI desktop</b> from the desktop shortcut or Start Menu.
+* Log-in to the Power BI account when prompted.
