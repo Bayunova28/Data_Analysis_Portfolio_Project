@@ -2,7 +2,7 @@
 ## Requirement
 
 ### Install and Configure SQL Server on Windows
-<img src="https://github.com/Bayunova28/Data_Analysis_Portfolio_Project/blob/main/sql-server-logo.png" width="900" height="300">
+<img src="https://github.com/Bayunova28/Data_Analysis_Portfolio_Project/blob/main/sql-server-logo.png" width="1000" height="300">
 
 * Download the setup file from the [SQL Server downloads](https://www.microsoft.com/en-us/sql-server/sql-server-downloads) page. Scroll down until you find the Developer edition and click the Download now button.
 * Click the middle tile to select the <b>Custom</b> installation type.
@@ -26,7 +26,7 @@
 * Once the installation process is complete, click <b>Close</b> to exit the setup.
 
 ### Install Microsoft Power BI desktop
-<img src="https://github.com/Bayunova28/Data_Analysis_Portfolio_Project/blob/main/power-bi-logo.jpg" width="900" height="300">
+<img src="https://github.com/Bayunova28/Data_Analysis_Portfolio_Project/blob/main/power-bi-logo.jpg" width="1000" height="400">
 
 * Visit [Microsoft Power BI](https://www.microsoft.com/en-us/download/details.aspx?id=45331) page.
 * Click <b>download free</b>.
