@@ -25,7 +25,7 @@
 * Choose an install location and click <b>Install</b> to continue.
 * Once the installation process is complete, click <b>Close</b> to exit the setup.
 
-### Install Microsoft Power BI desktop
+### Install Microsoft Power BI Desktop
 <img src="https://github.com/Bayunova28/Data_Analysis_Portfolio_Project/blob/main/power-bi-logo.jpg" width="1000" height="400">
 
 * Visit [Microsoft Power BI](https://www.microsoft.com/en-us/download/details.aspx?id=45331) page.
