@@ -1,4 +1,4 @@
--- Load chennai housing sales price
+-- Load chennai housing sales price dataset
 select 
   * 
 from 
